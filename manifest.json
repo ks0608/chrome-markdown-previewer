@@ -1,0 +1,11 @@
+{
+  "name": "Markdown Previewer",
+  "description": "Markdown Previewer",
+  "version": "0.0.1",
+  "app": {
+    "launch": {
+      "local_path": "main.html"
+    }
+  },
+  "manifest_version": 2
+}

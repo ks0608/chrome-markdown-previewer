@@ -1,0 +1,46 @@
+html, body {
+    height: 93%;
+    text-align: center;
+    font-family: Helvetica, Meiryo, sans-serif;
+}
+
+#container {
+    width: 98%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#header h1 {
+    font-size: 16pt;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#editor {
+    width: 50%;
+    height: 100%;
+    font-size: 11pt;
+    font-family: Menlo, "Ubuntu Mono", consolas, Meiryo;
+}
+
+#output {
+    width: 47%;
+    height: 100%;
+    overflow: auto;
+    font-size: 11pt;
+    float: right;
+}
+
+code {
+    font-family: Menlo, "Ubuntu Mono", consolas, Meiryo;
+}
+
+textarea, pre {
+    -webkit-tab-size: 4;
+    tab-size:4;
+}
