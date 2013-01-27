@@ -24,7 +24,7 @@ html, body {
 #editor {
     width: 50%;
     height: 100%;
-    font-size: 11pt;
+    font-size: 12pt;
     font-family: Menlo, "Ubuntu Mono", consolas, Meiryo;
 }
 
@@ -32,15 +32,24 @@ html, body {
     width: 47%;
     height: 100%;
     overflow: auto;
-    font-size: 11pt;
+    font-size: 12pt;
     float: right;
 }
 
 code {
     font-family: Menlo, "Ubuntu Mono", consolas, Meiryo;
+    font-size: 95%;
 }
 
 textarea, pre {
     -webkit-tab-size: 4;
-    tab-size:4;
+    tab-size: 4;
+}
+
+blockquote {
+    font-style:italic;
+}
+blockquote p:before,
+blockquote p:last-of-type:after {
+    content: no-close-quote;
 }
