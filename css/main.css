@@ -33,6 +33,7 @@ html, body {
     height: 100%;
     overflow: auto;
     font-size: 12pt;
+    line-height: 1.5;
     float: right;
 }
 
@@ -44,6 +45,15 @@ code {
 textarea, pre {
     -webkit-tab-size: 4;
     tab-size: 4;
+}
+
+#output pre {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: auto;
+}
+#output h2 {
+    border-bottom: 1px solid #ccc;
 }
 
 blockquote {
