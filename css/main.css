@@ -1,12 +1,11 @@
 html, body {
-    height: 93%;
+    height: 98%;
     text-align: center;
-    font-family: Helvetica, Meiryo, sans-serif;
 }
 
 #container {
-    width: 98%;
-    height: 100%;
+    width: 96%;
+    height: 95%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -14,6 +13,7 @@ html, body {
 
 #header h1 {
     font-size: 16pt;
+    margin: 6px 0;
 }
 
 #main {
@@ -22,44 +22,21 @@ html, body {
     float: left;
 }
 #editor {
-    width: 50%;
+    width: 48%;
     height: 100%;
-    font-size: 12pt;
-    font-family: Menlo, "Ubuntu Mono", consolas, Meiryo;
+    font-size: 10pt;
+    font-family: Menlo, consolas, Meiryo;
 }
 
 #output {
-    width: 47%;
+    width: 48%;
     height: 100%;
     overflow: auto;
-    font-size: 12pt;
-    line-height: 1.5;
     float: right;
+    padding: 7px 8px;
 }
 
-code {
-    font-family: Menlo, "Ubuntu Mono", consolas, Meiryo;
-    font-size: 95%;
-}
-
-textarea, pre {
-    -webkit-tab-size: 4;
+textarea {
     tab-size: 4;
 }
 
-#output pre {
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    overflow: auto;
-}
-#output h2 {
-    border-bottom: 1px solid #ccc;
-}
-
-blockquote {
-    font-style:italic;
-}
-blockquote p:before,
-blockquote p:last-of-type:after {
-    content: no-close-quote;
-}
